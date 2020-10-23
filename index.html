@@ -1,24 +1,65 @@
 <html>
   <head>
     <title> Learn ML </title>
-    <style>
-      <link rel="stylesheet" href="styles.css">
-    </style>
+      <link rel="stylesheet" href="css/light-bootstrap-dashboard-react.min.css">
+      <link rel="stylesheet" href="css/style.css">
   </head>
-
+<!-- https://demos.creative-tim.com/light-bootstrap-dashboard-react/?_ga=2.93279070.2138082992.1603232927-1960618059.1603232927#/admin/table -->
   <body>
     <nav>
-      <a href="index.html">About</a>
-      <a href="resume.html">Second Page</a>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
     </nav>
-    <div id="about">
-      <div class="container">
-        <h1>About</h1>
-        <div>
-          <!-- <img src="bio.jpg" alt="me"></img> -->
-          <p>Hands-on coding data science exercises and accompanying videos for Georgia Tech OMSCS Educational Technology project.</p>
-        </div>
+
+    <div id="sidebar" class="sidebar">
+      <div class="sidebar-wrapper">
+        <ul class="nav">
+          <li class>
+            <a class="nav-link" target="mainFrame" href="about.html">
+              About
+            </a>
+          </li>
+          <li class>
+          <a class="nav-link" target="mainFrame" href="introduction.html">
+            Introduction
+          </a>
+          </li>
+          <li class>
+            <a class="nav-link" target="mainFrame" href="definition.html">
+              Problem Definition
+            </a>
+          </li>
+          <li class>
+            <a class="nav-link" target="mainFrame" href="dataset.html">
+              Data Collection
+            </a>
+          </li>
+          <li class>
+            <a class="nav-link" target="mainFrame" href="representation.html">
+              Data Representation
+            </a>
+          </li>
+          <li class>
+            <a class="nav-link" target="mainFrame" href="training.html">
+              Model Training
+            </a>
+          </li>
+          <li class>
+            <a class="nav-link" target="mainFrame" href="testing.html">
+              Model Testing
+            </a>
+          </li>
+          <li class>
+            <a class="nav-link" target="mainFrame" href="impacts.html">
+              Impacts
+            </a>
+          </li>
+        </ul>
       </div>
+    </div>
+
+    <div id="main-panel" class="main-panel">
+      <iframe id="mainFrame" width=800 height=800 name="mainFrame" src="about.html"></iframe>
     </div>
   </body>
 
