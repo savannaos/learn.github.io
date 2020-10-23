@@ -1,7 +1,7 @@
 <html><body>
   <div class="content">
     <div class="container-fluid">
-      <h1>Testing</h1>
+      <h1>Model Setup</h1>
 
       <div class="row">
         <div class="col-lg-3 col-sm-6">
@@ -9,7 +9,7 @@
             <div class="header">
               <h3>Overview</h3>
             </div>
-            <div class="content">Now that we have a trained model, we need to understand how well it is performing.</div>
+            <div class="content">Now that we understand how to train model, we need to understand how to assess model performance.</div>
           </div>
         </div>
         <div class="col-lg-3 col-sm-6">
@@ -19,9 +19,7 @@
             </div>
             <div class="content">
               <ul>
-                <li>Design own experiments for evaluating a trained model</li>
-                <li>Analyze their computational work and the work of others</li>
-                <li>Gain skills in open-source development software</li>
+                <li>Gain skills in open-source software development</li>
               </ul>
             </div>
           </div>
@@ -36,9 +34,7 @@
               <p> To be replaced with videos: </p>
               <ol>
                 <li>Dependency setup</li>
-                <li>Classification accuracy score</li>
-                <li>Recall and precision</li>
-                <li>Confusion Matrix</li>
+                <li>Running the model</li>
               </ol>
             </div>
             <div class="content"> <iframe width="420" height="315" src="https://www.youtube.com/embed/tgbNymZ7vqY"></iframe></div>
@@ -51,33 +47,15 @@
             </div>
             <div class="content">
               <ol>
-                <li>Clone git repo</li>
-                <li>Install pyAudio</li>
-                <li>Install brew/pip</li>
-                <li>Install pytorch</li>
-                <li>Run the device hive model against different inputs</li>
+                <li>Clone git repo: `git clone https://github.com/savannaos/devicehive-audio-analysis`</li>
+                <li>Install dependencies following <a href="https://github.com/savannaos/devicehive-audio-analysis/blob/master/README.md">README</a></li>
+                <li>Run the device hive model against different inputs: `python3 parse_file.py path_to_your_file.wav`</li>
               </ol>
+              Note: PortAudio allows audio capturing which is a fun exercise for testing the model against real-world sounds. It can be disabled if setup becomes too tedious.
               </div>
           </div>
         </div>
       </div>
-
-      <div class="row">
-        <div class="col-md-8">
-          <div class="card">
-            <div class="header">
-              <h3>Resources</h3>
-            </div>
-            <div class="content">
-              <ul>
-                <li><a href="https://www.iotforall.com/tensorflow-sound-classification-machine-learning-applications"</a>Classifier to test</li>
-                <li><a href="http://portaudio.com/docs/v19-doxydocs/tutorial_start.html"</a> Pytorch audio library</li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-
 
       </div>
   </div>
