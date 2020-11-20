@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "eaf509d382d4619592142c0b8c22494c",
+    "revision": "519d50f6e753050a87c4c1a88ef41b84",
     "url": "/learnml/index.html"
   },
   {
-    "revision": "24e2255c5acc5cb67c80",
+    "revision": "8a853b37640bdb952c68",
     "url": "/learnml/static/css/2.0ed63a09.chunk.css"
   },
   {
-    "revision": "2c0ae2d12757614c89f4",
+    "revision": "5793f5e35004518b0aa4",
     "url": "/learnml/static/css/main.3e412c5a.chunk.css"
   },
   {
-    "revision": "24e2255c5acc5cb67c80",
-    "url": "/learnml/static/js/2.41f807b0.chunk.js"
+    "revision": "8a853b37640bdb952c68",
+    "url": "/learnml/static/js/2.7658084c.chunk.js"
   },
   {
-    "revision": "2c0ae2d12757614c89f4",
-    "url": "/learnml/static/js/main.951bb7f7.chunk.js"
+    "revision": "5793f5e35004518b0aa4",
+    "url": "/learnml/static/js/main.7498e889.chunk.js"
   },
   {
     "revision": "7b987dcd13ddfe58686c",
