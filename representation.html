@@ -33,6 +33,12 @@
                         </a>
                     </li>
                     <li>
+                        <a class="nav-link" href="./setup.html">
+                            <i class="nc-icon nc-grid-45"></i>
+                            <p>Model Setup</p>
+                        </a>
+                    </li>
+                    <li>
                         <a class="nav-link" href="./dataset.html">
                             <i class="nc-icon nc-notes"></i>
                             <p>Data Collection</p>
@@ -48,12 +54,6 @@
                         <a class="nav-link" href="./training.html">
                             <i class="nc-icon nc-vector"></i>
                             <p>Model Training</p>
-                        </a>
-                    </li>
-                    <li>
-                        <a class="nav-link" href="./setup.html">
-                            <i class="nc-icon nc-grid-45"></i>
-                            <p>Model Setup</p>
                         </a>
                     </li>
                     <li>
@@ -146,12 +146,15 @@
                                 <ul>
                                   <li>What does it mean to vectorize words and why do we need to do it?</li>
                                   <li>Explain the tradeoffs between one-hot, unique number, and embeddings.</li>
-                                  <li>How else could you collect sound data? Would it scale?</li>
+                                  <li>What can amplitude, pitch, and frequency tell us about the data?</li>
+                                  <li>How can we visualize those? What do you think different types of sounds would look?<li>
                                 </ul>
                               </li>
+                              <li>If you haven't already, setup the <a href="https://github.com/savannaos/learnml-audio-analysis"> repository</a></li>
                               <li>Select wav files for three different classes</li>
-                              <li>Create spectogram visuals of the waveforms</li>
-                              <li>Disuss the similarities and differences among selected classes</li>
+                              <li>Create waveforms and spectrograms of selected files using the visualize.py file</li>
+                              <li>Discuss the similarities and differences of selected classes</li>
+                              <li>Predict what other sounds would look like.</li>
                             </ol>
                             </div>
                         </div>
@@ -164,10 +167,13 @@
                         </div>
                         <div class="card-body">
                           <ul>
+                            <li> "The beauty of representing words as vectors is that they lend themselves to mathematical operators. For example, we can add and subtract vectors..."
+                                <a href="https://medium.com/@jayeshbahire/introduction-to-word-vectors-ea1d4e4b84bf"> Words as vectors </a></li>
                             <li><a href="https://librosa.org/doc/latest/index.html" target="_blank"> Python Library for audio files </a></li>
                             <li><a href="https://pytorch.org/tutorials/beginner/audio_preprocessing_tutorial.html" target="_blank"> Pytorch audio library </a> </li>
                             <li><a href="https://medium.com/google-cloud/youtube-8m-dataset-c2ee9c79d136" target="_blank"> Data representation example</a></li>
             		            <li><a href="https://www.izotope.com/en/learn/understanding-spectrograms.html" target="_blank"> Spectogram vs Waveform </a> </li>
+                            <li><a href="https://www.khanacademy.org/science/high-school-physics/x2a2d643227022488:waves/introduction-to-sound/v/sound-properties-amplitude-period-frequency-wavelength"> Sound properties: frequency, amplitude, etc</a> </li>
                           </ul>
                         </div>
                       </div>
